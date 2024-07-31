@@ -15,25 +15,25 @@ export const sidebarMenus = [
     id: 1,
     label: "Customers", // Label for the menu item
     icon: <MdDashboard />, // Icon for the menu item
-    path: "/pixel6-assignment", // Path for navigation
+    path: "/", // Path for navigation
   },
   {
     id: 2,
     label: "Add Customers",
     icon: <FaClipboardUser />,
-    path: "/pixel6-assignment/add-customer",
+    path: "/add-customer",
   },
   {
     id: 3,
     label: "Emails",
     icon: <FaEnvelope />,
-    path: "/pixel6-assignment/emails",
+    path: "/emails",
   },
   {
     id: 4,
     label: "Notifications",
     icon: <FaBell />,
-    path: "/pixel6-assignment/notifications",
+    path: "/notifications",
   },
 ];
 

@@ -12,20 +12,11 @@ function App() {
     <BrowserRouter>
       <DashboardLayout>
         <Routes>
-          <Route path="/pixel6-assignment" element={<Customers />} />
-          <Route
-            path="/pixel6-assignment/add-customer"
-            element={<AddCustomer />}
-          />
-          <Route
-            path="/pixel6-assignment/customer/:id"
-            element={<EditCustomer />}
-          />
-          <Route path="/pixel6-assignment/emails" element={<Emails />} />
-          <Route
-            path="/pixel6-assignment/notifications"
-            element={<Notifications />}
-          />
+          <Route path="/" element={<Customers />} />
+          <Route path="/add-customer" element={<AddCustomer />} />
+          <Route path="/customer/:id" element={<EditCustomer />} />
+          <Route path="/emails" element={<Emails />} />
+          <Route path="/notifications" element={<Notifications />} />
         </Routes>
         <ToastContainer
           position="bottom-right"

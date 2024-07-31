@@ -17,7 +17,7 @@ export const Customers = () => {
   // Handle editing a customer
   const handleEdit = (customer: customerType) => {
     dispatch(setSelectedCustomer(customer));
-    navigate(`/pixel6-assignment/customer/${customer.id}`);
+    navigate(`/customer/${customer.id}`);
   };
 
   // Handle deleting a customer
@@ -104,7 +104,7 @@ export const Customers = () => {
   // render simple message if data for table is not present in redux state
   const noCustomerFound = (
     <div>
-      <Link to="/pixel6-assignment/add-customer">
+      <Link to="/add-customer">
         <h1 className="text-red-500 font-medium">
           No Customers found, Click here to add customers.
         </h1>

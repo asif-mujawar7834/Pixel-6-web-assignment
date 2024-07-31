@@ -101,7 +101,7 @@ export const AddCustomerForms = () => {
       } else {
         dispatch(addCustomer({ ...values, id: Date.now() })); // Add new customer, used id as Date.now() as we are not using any database here
       }
-      navigate("/pixel6-assignment"); // Navigate after submission
+      navigate("/"); // Navigate after submission
     } catch (error) {
       console.error(error);
     }
