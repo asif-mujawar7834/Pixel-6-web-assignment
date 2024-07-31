@@ -30,7 +30,7 @@ const CustomerSlice = createSlice({
   initialState: initialState,
   reducers: {
     addCustomer: (state, action) => {
-      state.customers.push(action.payload);
+      state.customers.unshift(action.payload);
       toast.success("Customer added successfully.");
     },
     deleteCustomer: (state, action) => {

@@ -132,14 +132,14 @@ export const defaultCustomersList = [
   {
     id: 2,
     panNumber: "LMNOP1234Q",
-    name: "Nikhil Patil",
-    email: "nikhil@gmail.com",
+    name: "Rinku Singh",
+    email: "rinku@gmail.com",
     phone: "+912252388964",
-    address1: "Dongrade in dhule dist.",
+    address1: "New ABC Mall",
     address2: "",
     pincode: "121521",
     state: "Maharashtra",
-    city: "Dongrade",
+    city: "Nasik",
   },
   {
     id: 3,
