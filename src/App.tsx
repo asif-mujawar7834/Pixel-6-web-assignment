@@ -7,6 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Emails } from "./pages/Emails";
 import { Notifications } from "./pages/Notifications";
+import { PageNotFound } from "./pages/PageNotFound";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/customer/:id" element={<EditCustomer />} />
           <Route path="/emails" element={<Emails />} />
           <Route path="/notifications" element={<Notifications />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <ToastContainer
           position="bottom-right"
